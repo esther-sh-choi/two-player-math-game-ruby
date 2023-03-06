@@ -1,5 +1,5 @@
 require './game'
 require './player'
 
-game = Game.new
-puts game.play_round
+game = Game.new('player1', 'player2')
+puts game.play
