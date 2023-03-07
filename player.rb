@@ -10,4 +10,8 @@ class Player
     @lives -= 1
   end
 
+  def has_life?
+    lives > 0
+  end
+
 end
